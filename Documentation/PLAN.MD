@@ -1,4 +1,5 @@
 # Bengali Teaching-Voice — Complete Plan (Careful, Practical, Resumable)
+https://chatgpt.com/share/69058b65-ce74-8000-adc0-5d07b10a4cd2
 
 **Purpose:** End-to-end, practical plan to collect teaching-style Bengali+English-mixed voice data, build a lightweight TTS model, and *deploy a native, offline voice engine that browsers can use via the OS speech API (SAPI / OneCore)* — with strong resumability, safe backups, and a robust session/merge workflow.
 
@@ -286,8 +287,9 @@ start_step = state.get('step', 0)
 
 **Recommended stack for Colab Free:**
 
-* Acoustic: `Glow-TTS-mini` or `FastSpeech2-small` (compact)
-* Vocoder: `HiFi-GAN (v1 small)` or `MelGAN` (fast, smaller)
+Acoustic: FastSpeech2-small
+
+Vocoder: HiFi-GAN (v1 small)
 
 **Estimated sizes**
 
